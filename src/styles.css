@@ -10,20 +10,14 @@
   --accent-color: #e7dea6;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-h2 {
-  font-family: "Poppins";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 54px;
-}
+
 h1,
 h2,
 h3 {
   text-align: center;
   margin: 0;
 }
-h1 {
+#name {
   font-family: "Playfair Display";
   font-style: normal;
   font-weight: 700;
@@ -55,10 +49,20 @@ h3 {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: #e7dea6;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 }
 .about-link {
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
 }
 .homepage-link {
   color: var(--primary-color);
@@ -73,13 +77,16 @@ h3 {
 .about-paragraphs p {
   margin: 10px;
 }
-p {
-  background: var(--accent-color);
+.apps {
   padding: 20px;
   border-radius: 16px;
-  font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
 }
 .email-link {
   display: flex;
@@ -104,4 +111,44 @@ strong {
   color: black;
   border: 1px solid var(--primary-color);
   background: none;
+}
+i {
+  padding: 10px;
+  font-size: 20px;
+  color: var(--primary-color);
+}
+#app {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 85px;
+}
+p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  opacity: 0.7;
+}
+#welcome {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 54px;
+}
+@media (max-width: 900px) {
+  #welcome {
+    padding: 20px 20px;
+  }
+  #name {
+    font-size: 44px;
+    line-height: 2;
+  }
+
+  p {
+    font-size: 24px;
+  }
 }
