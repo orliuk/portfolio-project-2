@@ -231,4 +231,48 @@ p {
   p {
     font-size: 24px;
   }
+  .about-container {
+    text-align: center;
+    padding: 0;
+  }
+  #about-hero h1 {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+  #about-hero h2 {
+    font-size: 16px;
+    line-height: 1.5;
+    padding-top: 6px;
+  }
+  #about-hero p {
+    color: black;
+    border: 1px solid var(--primary-color);
+    background: none;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 6px;
+  }
+  #about-hero a {
+    border-radius: 4px;
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  #image {
+    display: none !important;
+  }
+  #about-hero i {
+    font-size: 16px;
+  }
+  #work h1 {
+    font-size: 26px;
+    line-height: 1.5;
+  }
+  #work p {
+    color: black;
+    border: 1px solid var(--primary-color);
+    background: none;
+    font-size: 14px;
+    margin: 0 auto;
+    padding: 6px;
+  }
 }
