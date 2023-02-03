@@ -141,6 +141,9 @@ p {
   font-size: 36px;
   line-height: 54px;
 }
+.content-container {
+  padding: 60px 20px;
+}
 .content h1 {
   font-size: 64px;
   line-height: 80px;
@@ -170,21 +173,42 @@ p {
   background-color: #bad0e4;
   margin: 0 auto;
   max-width: 100%;
-  padding: 100px;
+  padding: 100px 100px 20px 100px;
 }
 .contact-box {
   display: block;
   background: #ffffff;
-  padding: 40px 100px;
+  padding: 30px 120px;
   border-radius: 10px;
 }
 #work-inquiry {
   padding-top: 80px;
 }
+#work-inquiry h3 {
+  color: black;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 48px;
+}
 .btn-branding {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+#contact-btn {
+  padding-top: 42px;
+}
+#link-git {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+}
+#work {
+  display: block;
+  background-color: #bad0e4;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 20px 100px 6px 100px;
 }
 @media (max-width: 900px) {
   #welcome {
